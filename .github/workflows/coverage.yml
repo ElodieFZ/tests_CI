@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run coverage
         run: |
-          coverage run -m pytest --omit=test/
+          coverage run -m pytest --omit=test/ --source my_module my_module/examples.py 
           coverage report
           coveralls
 
