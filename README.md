@@ -1,3 +1,5 @@
+![Test Status](https://github.com/ElodieFZ/tests_CI/workflows/python-app/badge.svg)
+
 # Usage via command line
 
 To run the test, run one of the following commands from the package root directory:
