@@ -5,6 +5,8 @@ To run the test, run one of the following commands from the package root directo
 ```bash
 python3 test/test_examples.py
 python -m unittest
+nosetests
+pytest
 ```
 
 Package must be added to PYTHON_PATH beforehand
