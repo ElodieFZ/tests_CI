@@ -1,7 +1,7 @@
 ![Test Status](https://github.com/ElodieFZ/tests_CI/workflows/tests/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/ElodieFZ/tests_CI/badge.svg?branch=github_workflow)](https://coveralls.io/github/ElodieFZ/tests_CI?branch=github_workflow)
 
-# Test via command line
+# Tests via command line
 
 Package must be added to PYTHON_PATH beforehand
 For example, if in a conda environment,
@@ -26,7 +26,10 @@ coverage run -m pytest
 coverage report
 ```
 
-# Coverage via github Actions
-
-# 1. Added the coveralls token (one per repository, see https://coveralls.io/github/ElodieFZ) to the Github repo (Settings/Secrets, name COVERALLS_REPO_TOKEN)
+## Coveralls
+1. Create account on coveralls [here](https://coveralls.io)
+1. Link it to the GitHub repo
+1. Add the repo's coveralls token to the Github repo (Settings/Secrets, name `COVERALLS_REPO_TOKEN`)
+1. Add yaml githubflow file
+1. Add badge to README
 
